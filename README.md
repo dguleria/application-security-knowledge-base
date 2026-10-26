@@ -15,6 +15,7 @@ See `01-devsecops-visual/devsecops-ownership.svg` for a simple ownership visual 
 1. Secure Coding Practices & Checklists (`02-secure-coding-practices/`)
 2. Trusted Libraries (`03-trusted-libraries/`)
 3. Standard Architectures (AWS, Microsoft, patterns/anti-patterns) (`04-architecture/`)
+   - [Architecture & System Design Cheat Sheet](04-architecture/architecture-system-design-cheat-sheet.md) — traditional enterprise, cloud-native, distributed systems, AI/LLM and agentic AI patterns, trade-offs, and security overlays.
 4. Mistakes to Avoid (`05-mistakes-to-avoid/`)
 5. SBOM & Supply Chain Security (`06-sbom/`)
 6. Pre-Commit Hooks (25+ curated list) (`07-precommit-hooks/`)
@@ -22,10 +23,11 @@ See `01-devsecops-visual/devsecops-ownership.svg` for a simple ownership visual 
 8. References (`references.md`)
 
 ## Quick start
-1. Unzip this bundle
-2. Browse the `docs/` and `templates/` folders and copy into your project repos
-3. Adopt the pre-commit hooks and CI examples as pipeline steps
-4. Use SBOM steps at build time to track dependencies and supply chain
+1. Browse the architecture cheat sheet and select the patterns relevant to your system.
+2. Use the architecture canvas and ADR template to document decisions, constraints, trade-offs and revisit triggers.
+3. Map security requirements to controls, owners, tests and evidence.
+4. Adopt the pre-commit hooks and CI examples as pipeline steps.
+5. Use SBOM steps at build time to track dependencies and supply chain.
 
 ## Links (quick)
 - OWASP Top 10: https://owasp.org/www-project-top-ten/
